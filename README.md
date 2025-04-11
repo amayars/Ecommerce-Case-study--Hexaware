@@ -7,10 +7,10 @@ A menu-driven console-based Ecommerce application built in Java using JDBC and M
 
 ## 🔧 Utilities
 
-### `PropertyUtil`
+### `db.properties`
 Reads DB properties from `.properties` file (host, dbname, username, password, port) and returns a connection string.
 
-### `DBConnection`
+### `ConnectionHelper`
 Uses the connection string to return a static SQL `ConnectionHelper` object.
 
 ---
